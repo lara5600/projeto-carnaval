@@ -12,6 +12,7 @@ nav {
     display: flex;
     justify-content: center;
 }
+
 header h1 { animation: flutuar 2s ease-in-out infinite; }
 @keyframes flutuar { 0% { transform: translateY(0); } 50% { transform: translateY(-5px); } 100% { transform: translateY(0); } }
 @keyframes flutuar { 0% { transform: translateY(0); color:#f28c28; } 50% { transform: translateY(-5px); color:#e63946; } 100% { transform: translateY(0); color:#f28c28; } }
